@@ -1,0 +1,182 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Form(object):
+    def openforms1(self):
+        from seven1 import Ui_Form
+        self.Form = QtWidgets.QWidget()
+        self.ui = Ui_Form()
+        self.ui.setupUi(self.Form)
+        self.Form.show()
+    def openforms2(self):
+        from FOURTEEN import Ui_Form
+        self.Form = QtWidgets.QWidget()
+        self.ui = Ui_Form()
+        self.ui.setupUi(self.Form)
+        self.Form.show()
+
+    def openforms4(self):
+        from first1 import Ui_MainWindow
+        self.MainWindow = QtWidgets.QMainWindow()
+        self.ui =Ui_MainWindow()
+        self.ui.setupUi(self.MainWindow)
+        self.MainWindow.show()
+    def loginmanager(self):
+        if self.lineEdit.text() == "manager" and self.lineEdit_2.text() == "1234":
+            self.pushButton_2.clicked.connect(self.openforms1)
+            #self.pushButton_2.clicked.connect(Form.close)
+        elif self.lineEdit.text() == "architect" and self.lineEdit_2.text() == "1234":
+            self.pushButton_2.clicked.connect(self.openforms2)
+
+        elif self.lineEdit.text() == "contractor" and self.lineEdit_2.text() == "1234":
+            self.pushButton_2.clicked.connect(self.openforms2)
+            #self.pushButton_2.clicked.connect(Form.close)
+        else:
+            self.label_2.setText("please fill coorect info")
+
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(521, 501)
+        self.widget = QtWidgets.QWidget(Form)
+        self.widget.setGeometry(QtCore.QRect(0, -1, 551, 521))
+        self.widget.setObjectName("widget")
+        self.label = QtWidgets.QLabel(self.widget)
+        self.label.setGeometry(QtCore.QRect(-4, -1, 541, 511))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setStyleSheet("border-image: url(C:/Users/F I ENTERPRISES/Documents/ise project/ise project 2k22/login.jpeg);")
+        self.label.setText("")
+        self.label.setObjectName("label")
+        self.label_4 = QtWidgets.QLabel(self.widget)
+        self.label_4.setGeometry(QtCore.QRect(100, 60, 301, 71))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setUnderline(False)
+        font.setWeight(75)
+        self.label_4.setFont(font)
+        self.label_4.setStyleSheet("color:rgba(255, 255, 255, 210);")
+        self.label_4.setObjectName("label_4")
+        self.lineEdit = QtWidgets.QLineEdit(self.widget)
+        self.lineEdit.setGeometry(QtCore.QRect(140, 210, 231, 40))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.lineEdit.setFont(font)
+        self.lineEdit.setStyleSheet("background-color:rgba(0, 0, 0, 0);\n"
+"border:none;\n"
+"border-bottom:2px solid rgba(105, 118, 132, 255);\n"
+"color:rgb(56, 73, 91);\n"
+"padding-bottom:7px;")
+        self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.widget)
+        self.lineEdit_2.setGeometry(QtCore.QRect(140, 280, 231, 40))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.lineEdit_2.setFont(font)
+        self.lineEdit_2.setStyleSheet("background-color:rgba(0, 0, 0, 0);\n"
+"border:none;\n"
+"border-bottom:2px solid rgba(105, 118, 132, 255);\n"
+"color:rgbargb(54, 71, 89);\n"
+"padding-bottom:7px;")
+        self.lineEdit_2.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.pushButton_2 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_2.setGeometry(QtCore.QRect(150, 350, 200, 40))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(15)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.error1 = QtWidgets.QLabel(self.widget)
+        self.error1.setGeometry(QtCore.QRect(160, 270, 201, 21))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.error1.setFont(font)
+        self.error1.setStyleSheet("color: rgb(255, 0, 0);")
+        self.error1.setText("")
+        self.error1.setObjectName("error1")
+        self.error3 = QtWidgets.QLabel(self.widget)
+        self.error3.setGeometry(QtCore.QRect(10, 220, 191, 41))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.error3.setFont(font)
+        self.error3.setStyleSheet("color: rgb(255, 0, 0);")
+        self.error3.setText("")
+        self.error3.setObjectName("error3")
+        self.label_5 = QtWidgets.QLabel(self.widget)
+        self.label_5.setGeometry(QtCore.QRect(130, 120, 221, 41))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setUnderline(True)
+        font.setWeight(75)
+        self.label_5.setFont(font)
+        self.label_5.setStyleSheet("color:rgba(255, 255, 255, 210);")
+        self.label_5.setObjectName("label_5")
+        self.pushButton_4 = QtWidgets.QPushButton(self.widget)
+        self.pushButton_4.setGeometry(QtCore.QRect(20, 10, 61, 31))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(15)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_4.setFont(font)
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.error1_2 = QtWidgets.QLabel(self.widget)
+        self.error1_2.setGeometry(QtCore.QRect(100, 180, 341, 31))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.error1_2.setFont(font)
+        self.error1_2.setStyleSheet("color: rgb(255, 0, 0);")
+        self.error1_2.setText("")
+        self.error1_2.setObjectName("error1_2")
+        self.label_2 = QtWidgets.QLabel(self.widget)
+        self.label_2.setGeometry(QtCore.QRect(120, 159, 251, 41))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.label_2.setFont(font)
+        self.label_2.setStyleSheet("color: rgb(255, 0, 0);")
+        self.label_2.setText("")
+        self.label_2.setObjectName("label_2")
+        self.pushButton_2.clicked.connect(self.loginmanager)
+        #self.pushButton_2.clicked.connect(Form.close)
+        self.pushButton_4.clicked.connect(self.openforms4)
+        self.pushButton_4.clicked.connect(Form.close)
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "Form"))
+        self.label_4.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:22pt;\">SA ARCHITECT</span></p></body></html>"))
+        self.lineEdit.setPlaceholderText(_translate("Form", "  User Name"))
+        self.lineEdit_2.setPlaceholderText(_translate("Form", "  Password"))
+        self.pushButton_2.setText(_translate("Form", "L o g  I n"))
+        self.label_5.setText(_translate("Form", "<html><head/><body><p align=\"center\">Manaement</p><p align=\"center\"><br/></p></body></html>"))
+        self.pushButton_4.setText(_translate("Form", "BACK"))
+
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    Form = QtWidgets.QWidget()
+    ui = Ui_Form()
+    ui.setupUi(Form)
+    Form.show()
+    sys.exit(app.exec_())
