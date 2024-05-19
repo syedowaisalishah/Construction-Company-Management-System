@@ -45,7 +45,7 @@ Here are some screenshots of the application:
 ![Requirement Page](screenshots/screenshot3.PNG)
 
 ### Dashboard
-![Dashboard](screenshots/screenshot4.PNG)
+![Dashboard](screenshots/screenshots4.PNG)
 
 
 
