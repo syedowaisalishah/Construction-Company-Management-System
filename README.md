@@ -39,13 +39,13 @@ Here are some screenshots of the application:
 ![Home Scree](screenshots/screenshot1.PNG)
 
 ### Client Login Page
-![Client Login Page](screenshots/screenshot2.png)
+![Client Login Page](screenshots/screenshot2.PNG)
 
 ### Requirement Page
-![Requirement Page](screenshots/screenshot3.png)
+![Requirement Page](screenshots/screenshot3.PNG)
 
 ### Dashboard
-![Dashboard](screenshots/screenshot4.png)
+![Dashboard](screenshots/screenshot4.PNG)
 
 
 
