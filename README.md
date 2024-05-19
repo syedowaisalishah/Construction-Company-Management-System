@@ -9,7 +9,6 @@ Welcome to the SA Architect Construction Company Management System! This system 
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -84,7 +83,37 @@ Here are some screenshots of the application:
 ### Dashboard
 ![Dashboard](screenshots/screenshots4.PNG)
 
+## Contributing
 
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. **Fork the Project**: Fork the repository by clicking the 'Fork' button on the top right corner of the repository page.
+2. **Clone the Repository**: Clone the forked repository to your local machine. Open a terminal and run the following command:
+    ```sh
+    git clone https://github.com/your-username/Construction-Compony-Management-System.git
+    ```
+3. **Update Frontend Page**: Make necessary changes or improvements to the frontend pages, such as UI enhancements or new features.
+4. **Update README**: If you've made significant changes or added new features, update the README file to reflect those changes. Follow the existing format and guidelines.
+5. **Commit Changes**: Commit your changes with a descriptive commit message explaining the improvements or additions you've made.
+    ```sh
+    git add .
+    git commit -m 'Add feature: [brief description of feature]'
+    ```
+6. **Push Changes**: Push your changes to your forked repository.
+    ```sh
+    git push origin main
+    ```
+7. **Create Pull Request**: Go to the original repository and click on the 'New Pull Request' button. Provide a brief description of your changes and submit the pull request.
+
+Your contributions will be reviewed and merged to the main branch if they meet the project's guidelines and standards. Thank you for your contribution!
+
+## Contact
+
+For any inquiries or suggestions, feel free to reach out:
+
+- **Email**: [alishahowais@gmail.com](mailto:alishahowais@gmail.com)
+- **LinkedIn**: [Syed Owais Ali Shah](https://pk.linkedin.com/in/syed-owais-ali-shah-945707247?trk=people-guest_people_search-card)
+- **GitHub**: [syedowaisalishah](https://github.com/syedowaisalishah)
 
 
 ### Prerequisites
