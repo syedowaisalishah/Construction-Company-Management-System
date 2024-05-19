@@ -59,7 +59,7 @@ To use the SA Architect Construction Company Management System, follow these ste
 
 5. **Run the Application**:
     ```sh
-    python main.py
+    python first1.py
     ```
 
 6. **Using the Application**:
@@ -95,6 +95,7 @@ Here are some screenshots of the application:
 
 - [Python 3.7+](https://www.python.org/downloads/)
 - [PyQt5](https://pypi.org/project/PyQt5/)
+- [sqlitebrowser](https://sqlitebrowser.org/)
 - Git (optional, for cloning the repository)
 
 ### Clone the Repository
