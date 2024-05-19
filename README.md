@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple steps:
 Here are some screenshots of the application:
 
 ### Home Screen
-![Home Scree](screenshots/screenshot1.png)
+![Home Scree](screenshots/screenshot1.PNG)
 
 ### Client Login Page
 ![Client Login Page](screenshots/screenshot2.png)
