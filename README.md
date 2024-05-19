@@ -6,7 +6,6 @@ Welcome to the SA Architect Construction Company Management System! This system 
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
@@ -26,9 +25,6 @@ SA Architect Construction Company Management System is a comprehensive solution 
 - **Reports and Analytics**: Generate reports and analyze project performance and company metrics.
 - **User-friendly Interface**: Intuitive and easy-to-use interface designed for efficiency.
 
-## Installation
-
-To get a local copy up and running follow these simple steps:
 
 ## Usage
 
@@ -51,7 +47,7 @@ To use the SA Architect Construction Company Management System, follow these ste
     - Download and install DB Browser for SQLite from [here](https://sqlitebrowser.org/).
 
 4. **Change Image Path**:
-    - Open the `main.py` file or any other relevant file where image paths are set.
+    - Open the `first1.py` file or any other relevant file where image paths are set.
     - Update the image paths to the correct location on your local machine. For example, if your images are located in a folder named `images` within the project directory, you might update the path like this:
         ```python
         self.label.setStyleSheet("border-image: url(images/image1.jpeg);")
@@ -96,7 +92,7 @@ Here are some screenshots of the application:
 - [Python 3.7+](https://www.python.org/downloads/)
 - [PyQt5](https://pypi.org/project/PyQt5/)
 - [sqlitebrowser](https://sqlitebrowser.org/)
-- Git (optional, for cloning the repository)
+- [Git Clone Repository](https://github.com/syedowaisalishah/Construction-Compony-Management-System.git)
 
 ### Clone the Repository
 
