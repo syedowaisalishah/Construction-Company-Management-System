@@ -30,6 +30,26 @@ SA Architect Construction Company Management System is a comprehensive solution 
 
 To get a local copy up and running follow these simple steps:
 
+
+## Screenshots
+
+Here are some screenshots of the application:
+
+### Home Screen
+![Home Scree](screenshots/screenshot1.png)
+
+### Client Login Page
+![Client Login Page](screenshots/screenshot2.png)
+
+### Requirement Page
+![Requirement Page](screenshots/screenshot3.png)
+
+### Dashboard
+![Dashboard](screenshots/screenshot4.png)
+
+
+
+
 ### Prerequisites
 
 - [Python 3.7+](https://www.python.org/downloads/)
