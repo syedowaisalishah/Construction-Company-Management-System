@@ -122,8 +122,8 @@ For any inquiries or suggestions, feel free to reach out:
 - **GitHub**: [syedowaisalishah](https://github.com/syedowaisalishah)
 
 - **Email**: [sohaibofficial25@gmail.com](mailto:sohaibofficial25@gmail.com)
-- **LinkedIn**: [MuhammadSohaibRashid]([https://www.linkedin.com/in/muhammad-sohaib-rashid/])
-- **GitHub**: [MuhammadSohaibRashid]([https://github.com/MuhammadSohaibRashid])
+- **LinkedIn**: [MuhammadSohaibRashid](https://www.linkedin.com/in/muhammad-sohaib-rashid/)
+- **GitHub**: [MuhammadSohaibRashid](https://github.com/MuhammadSohaibRashid)
 
 
 ### Prerequisites
