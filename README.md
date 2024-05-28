@@ -11,7 +11,7 @@ Welcome to the SA Architect Construction Company Management System! This system 
 - [Contributing](#contributing)
 - [Contact](#contact)
 
-## Introductio
+## Introduction
 
 SA Architect Construction Company Management System is a comprehensive solution for managing construction projects and company operations. The system provides tools for managing clients, projects, employees, and other aspects of the construction business, ensuring efficient and effective operations.
 
