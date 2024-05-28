@@ -121,6 +121,10 @@ For any inquiries or suggestions, feel free to reach out:
 - **LinkedIn**: [Syed Owais Ali Shah](https://pk.linkedin.com/in/syed-owais-ali-shah-945707247?trk=people-guest_people_search-card)
 - **GitHub**: [syedowaisalishah](https://github.com/syedowaisalishah)
 
+- **Email**: [sohaibofficial25@gmail.com](mailto:sohaibofficial25@gmail.com)
+- **LinkedIn**: [MuhammadSohaibRashid](https://www.linkedin.com/in/muhammad-sohaib-rashid/)
+- **GitHub**: [MuhammadSohaibRashid](https://github.com/MuhammadSohaibRashid)
+
 
 ### Prerequisites
 
